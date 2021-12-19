@@ -5,3 +5,4 @@ code-gen:
 	~/go/bin/abigen --abi=router/router.abi --bin=router/router.bin --pkg=router --out=router/router.go
 	~/go/bin/abigen --abi=weth/weth.abi --bin=weth/weth.bin --pkg=weth --out=weth/weth.go
 	~/go/bin/abigen --abi=erc20/erc20.abi --pkg=erc20 --out=erc20/erc20.go
+	~/go/bin/abigen --abi=pool/pool.abi --bin=pool/pool.bin --pkg=pool --out=pool/pool.go
